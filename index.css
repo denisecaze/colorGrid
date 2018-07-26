@@ -1,0 +1,157 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 96px);
+  grid-template-areas: 
+  "item1 item2 item3 item4 item5 item6 item7 item8 item9 item10 item11 item12"
+  "item13 item13 item14 item14 item15 item15 item16 item16 item17 item17 item18 item18"
+  "item19 item19 item19 item20 item20 item20 item21 item21 item21 item22 item22 item22"
+  "item23 item23 item23 item23 item24 item24 item24 item24 item25 item25 item25 item25"
+  "item26 item26 item26 item26 item26 item26 item27 item27 item27 item27 item27 item27"
+  "item28 item28 item28 item28 item28 item28 item28 item28 item28 item28 item28 item28";
+  grid-gap: 10px;
+}
+
+.item1 {
+  background-color: yellow;
+  grid-area: item1;
+}
+
+.item2 {
+  background-color: yellow;
+  grid-area: item2;
+}
+
+.item3 {
+  background-color: yellow;
+  grid-area: item3;
+}
+
+.item4 {
+  background-color: yellow;
+  grid-area: item4;
+}
+
+.item5 {
+  background-color: yellow;
+  grid-area: item5;
+}
+
+.item6 {
+  background-color: yellow;
+  grid-area: item6;
+}
+
+.item7 {
+  background-color: yellow;
+  grid-area: item7;
+}
+
+.item8 {
+  background-color: yellow;
+  grid-area: item8;
+}
+
+.item9 {
+  background-color: yellow;
+  grid-area: item9;
+}
+
+.item10 {
+  background-color: yellow;
+  grid-area: item10;
+}
+
+.item11 {
+  background-color: yellow;
+  grid-area: item11;
+}
+
+.item12 {
+  background-color: yellow;
+  grid-area: item12;
+}
+
+.item13 {
+  background-color: greenyellow;
+  grid-area: item13;
+}
+
+.item14 {
+  background-color: greenyellow;
+  grid-area: item14;
+}
+
+.item15 {
+  background-color: greenyellow;
+  grid-area: item15;
+}
+
+.item16 {
+  background-color: greenyellow;
+  grid-area: item16;
+}
+
+.item17 {
+  background-color: greenyellow;
+  grid-area: item17;
+}
+
+.item18 {
+  background-color: greenyellow;
+  grid-area: item18;
+}
+
+.item19 {
+  background-color: lightgreen;
+  grid-area: item19;
+}
+
+.item20 {
+  background-color: lightgreen;
+  grid-area: item20;
+}
+
+.item21 {
+  background-color: lightgreen;
+  grid-area: item21;
+}
+
+.item22 {
+  background-color: lightgreen;
+  grid-area: item22;
+}
+
+.item23 {
+  background-color: lightseagreen;
+  grid-area: item23;
+}
+
+.item24 {
+  background-color: lightseagreen;
+  grid-area: item24;
+}
+
+.item25 {
+  background-color: lightseagreen;
+  grid-area: item25;
+}
+
+.item26 {
+  background-color: darkorchid;
+  grid-area: item26;
+}
+
+.item27 {
+  background-color: darkorchid;
+  grid-area: item27;
+}
+
+.item28 {
+  background-color: fuchsia;
+  grid-area: item28;
+}
+
+
+/*grid-column: 2 / span 5 */
+/*para expandir até a linha tal*/
